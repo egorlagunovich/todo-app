@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 94vh;
+}
+.menu {
+  text-align: center;
+}
+
+.menu h1 {
+  font-size: 70px;
+  padding: 20px;
+}
+
+.menu input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.menu button {
+  height: 50px;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.menu button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todosList {
+  display: grid;
+  margin: 0 auto;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+footer {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+
+}
